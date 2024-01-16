@@ -6,39 +6,45 @@
 /* Feel free to add as many of these imports as you need */
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 /* Additional styling for responsiveness */
-@media only screen and (min-width: 360px) and (max-width:768px){
-
+@media only screen and  (max-width:768px){
+  .main-wrapper {
+    flex-direction: column; 
+}
 }
 body {
     color:rgb(127, 249, 255);
     background-color:black;
     font-family: 'Poppins', sans-serif; 
+}
+html,
+body{
     height: 100vh;
     margin: 0;
     padding: 0;
-    align-items: center;
-    justify-content: center;
+ 
   }
-  .image-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-}
-
- .center-container {
+  .center-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    height: 100vh;
   }
-
-  .image-container img{
+  .image-container1 ,
+  .image-container2 {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  }
+  .image-container1 img ,
+  .image-container2 img{
     width: 100%;
     height: auto;
-    }
-  
-   .outside-wrapper {
+  }
+ .outside-wrapper {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -123,15 +129,18 @@ body {
   nav .left-items,
   nav .right-items {
     display: flex;
-    align-items: center;
+    justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
+    align-items: center;
   }
   nav .left-items li,
   nav .right-items li {
     margin-right:20px;
+    
   }
+
   nav .right-items li img {
     width:15px;
     height:15px;
@@ -143,14 +152,13 @@ body {
   }
 
 .content-container{
-max-width: 1300px;
+max-width: 1200px;
 width: 100%;
 height: auto;
 text-align: center;
 border-radius: 30px;
 border-style: inset;
 border: 2px solid #03FFF0;
-margin-bottom: 20px;
 margin-bottom: 20px;
 position: relative;
 align-items: center;
@@ -176,6 +184,10 @@ margin-top: 50px;
   .content-container ,p {
     font-size: large;
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   h1{
     color: #03FFF0;
@@ -184,10 +196,11 @@ margin-top: 50px;
     color: #03FFF0;
     font-size: 30px;
     border-top:1px solid #03FFF0;
+    padding-top: 30px;
   }
   :placeholder-shown{
     margin-bottom: 30px;
-    width: 30%;
+    width: 50%;
     height: auto;
   }
   h3{
@@ -205,26 +218,23 @@ margin-top: 50px;
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    flex-direction: column;
     z-index: 1;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
     color: white;
-    width: 40%;
+    width: 100%;
     position: absolute;
     display: flex;
+    flex-direction: column;
 }
 .image-overlay-1{
-  left: 10%;
-  top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-30%);
   width: 470px;
 height: 650px;
 }
 .image-overlay-2{
-  right: 10%;
-  top: 95%;
-  transform: translateY(-50%);
+  transform: translateY(-30%);
   width: 470px;
 height: 650px;
 }
@@ -259,10 +269,10 @@ a{
   font-size: medium;
 }
 .apple-button:hover{
-  background-color: #8c0000;
+  background-color: #8c2c00;
 }
 .google-button:hover{
-  background-color: #8c0000;
+  background-color: #8c4400;
 }
 
 #signInForm input{
@@ -316,7 +326,7 @@ margin-top: 15px;
 h5 {
   color:rgb(141, 141, 70);
   font-family:'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: smaller;
   font-weight: 300;
   text-align: center;
   }
