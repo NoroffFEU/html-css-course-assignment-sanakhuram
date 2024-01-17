@@ -6,12 +6,10 @@
 /* Feel free to add as many of these imports as you need */
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 /* Additional styling for responsiveness */
-@media only screen and  (max-width:768px){
+
+@media only screen and (min-width: 360px) and (max-width:768px){
   .main-wrapper {
     flex-direction: column; 
-}
-.links {
-  display: none;
 }
 }
 body {
@@ -19,7 +17,7 @@ body {
   background-color:black;
   font-family: 'Poppins', sans-serif; 
   width: 100%;
-  display: flex;
+  display:flex;
   margin: 0;
 }
 html{
@@ -29,7 +27,7 @@ scroll-behavior: smooth;
   .center-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     height: 100vh;
   }
@@ -51,7 +49,8 @@ scroll-behavior: smooth;
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: 100%; 
+    
    }
    .header-wrapper {
     height: auto;
@@ -86,21 +85,20 @@ scroll-behavior: smooth;
     color: whitesmoke;
     font-family:'Poppins', sans-serif;
     font-size: 15px;
+    float:right;
    }
    .header-content {
     display:flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     height: 100%;
    }
    .main-wrapper {
     background-color: black ;
     flex-grow: 1;
-    justify-content: space-between; 
-    flex-direction: column;
-    flex-wrap: wrap;
-  } 
+   
+} 
   li {
     position:inherit;
     list-style: none;
@@ -168,6 +166,7 @@ align-items: center;
 margin-right: auto;
 margin-left: auto;
 margin-top: 50px;
+
   }
   .Submit-button{
     background-color: #2ACBD5;
@@ -230,14 +229,15 @@ margin-top: 50px;
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: ;
 }
-.image-overlay-1{ 
-width: 470px;
+.image-overlay-1{
+ 
+  width: 470px;
 height: 650px;
 }
 .image-overlay-2{
- width: 470px;
+ 
+  width: 470px;
 height: 650px;
 }
 a{
