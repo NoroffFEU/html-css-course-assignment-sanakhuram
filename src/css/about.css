@@ -86,6 +86,7 @@ scroll-behavior: smooth;
     font-size: 15px;
     float:right;
    }
+   
    .header-content {
     display:flex;
     align-items: center;
