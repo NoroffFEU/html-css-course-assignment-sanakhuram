@@ -262,7 +262,7 @@ cursor: pointer;
 text-decoration: none;
 }
 .Sign-in-botton:hover{
-  background-color: #8c0000;
+  background-color:#838c00;
 }
 .text-container p{
   color:aqua;
@@ -383,7 +383,7 @@ h3{
   font-size: medium;
 }
 .movie-item button:hover{
-  background-color: #8c0000;
+  background-color:#838c00;
 }
 .watch-now-button {
   display: inline-block;

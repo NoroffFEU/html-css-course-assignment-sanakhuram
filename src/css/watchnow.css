@@ -247,9 +247,11 @@ nav .right-items li span {
     text-decoration: none;
     font-weight: normal;
   }
-  .add-to-watchlist-button:hover
-  .add-to-cart-button:hover{
-    background-color: #8c0000;
+  .add-to-watchlist-button:hover{
+    background-color: #838c00;
+  }
+  .add-to-cart-button:hover { 
+    background-color: #838c00;
   }
 
   h1.left-aligned {
@@ -260,7 +262,7 @@ nav .right-items li span {
  h1.right-aligned{
   text-align: right;
   font-weight: bold;
-  color: #8c0000;
+  color: #f80a0a;
   font-size: large;
  }
  h2{

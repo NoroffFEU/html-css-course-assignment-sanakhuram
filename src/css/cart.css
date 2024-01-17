@@ -157,6 +157,7 @@ body {
   .subscribe-button:hover {
     background-color: #778c00;
   }
+
    .header-content {
     display:flex;
     align-items: center;
@@ -250,7 +251,7 @@ nav .right-items li span {
 p1 {
   font-size: large;
   font-weight: bold;
-  color: #8c0000;
+  color: #f80909;
   align-items: right;
   position: absolute;
   margin-left: 70%;
@@ -292,7 +293,7 @@ p1 {
 .Card-Details-button:hover,
 .quantity-Button:hover,
 .Place-Order-button:hover {
-  background-color: #8c0000;
+  background-color:#838c00;
 }
 .quantity-Button {
   background-color: #f5f9f9;
