@@ -82,6 +82,91 @@ scroll-behavior: smooth;
     font-family:'Poppins', sans-serif;
     font-size: 15px;
    }
+   .hamburger {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu {
+    position: fixed;
+    left: -200px;
+    top: 80px;
+    height: 70%;
+    width: 200px;
+    background-color: hsl(190, 30%, 8%);
+    border-radius: 20px;
+    transition: left 0.3s ease-in-out;
+    z-index: 100;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 15px;
+    border-bottom:  1px solid #0af3f3;
+    display: list-item;
+    text-align: center;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    transition: border-bottom 0.3s ease-in-out;
+    align-self: center;
+    
+  }
+  .menu li:hover {
+    border-bottom: 1px solid #bcfd09; 
+  }
+  
+  #menu-toggle:checked + .hamburger {
+    transform: rotate(90deg);
+  }
+  
+  #menu-toggle:checked + .hamburger + .menu {
+    left: 0;
+  }
+   
+   #menu-toggle:checked + .menu {
+    left: 0;
+    transition: left 0.3s ease-in-out;
+  }
+  
+  #menu-toggle:not(:checked) + .menu {
+    left: -200px;
+    transition: left 0.3s ease-out;
+  }
+  .bottom-options {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .subscribe-button {
+    background-color: #2ACBD5;
+    color: black;
+    padding: 8px 20px;
+    border: solid 1px white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+    transition: background-color 0.3s ease-in-out; /* Button background transition on hover */
+  }
+  .subscribe-button:hover {
+    background-color: #778c00;
+  }
    .header-content {
     display:flex;
     align-items: center;
