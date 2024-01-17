@@ -53,9 +53,8 @@ scroll-behavior: smooth;
     
    }
    .header-wrapper {
-    height: auto;
+    height: 500px;
     align-items: center;
-    display: flex;
     background-color: aqua;
     justify-content: center;
     flex-direction: column;
