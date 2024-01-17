@@ -255,7 +255,7 @@ h1{
 .Sign-in-botton{
 background-color: #2ACBD5;
 color:black;
-padding: 5px  var(--button-size);
+padding: 8px  var(--button-size);
 border:solid 1px white;
 border-radius: 20px;
 cursor: pointer;
