@@ -17,7 +17,7 @@
   .right-items li{
     display: none;
   }
-  
+
   .content-container{
     margin: 20px auto;
     padding:10px;
@@ -235,7 +235,6 @@ scroll-behavior: smooth;
     display: inline-block;
     margin-right: 5px;
     font-size: 12px;
-    border-bottom:  bottom 1px solid #2ACBD5;
     font-family: 'Poppins', sans-serif;
   }
   nav {
