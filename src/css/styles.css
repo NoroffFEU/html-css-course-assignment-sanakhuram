@@ -13,6 +13,12 @@
   .movie-item img{
     width: calc(50% - 20px);
 }
+.Sign-in-botton {
+  display: block; 
+  margin: 0 auto;
+  position: static; 
+}
+
 }
 @media only screen and (min-width: 601px) and (max-width:900px){
   .links {
@@ -20,6 +26,11 @@
   }
   .movie-item img{
     width: calc(33.33% - 20px);
+}
+.Sign-in-botton {
+  display: block; 
+  margin: 0 auto;
+  position: static; 
 }
 
 }
@@ -192,7 +203,7 @@ scroll-behavior: smooth;
     background-color: black ;
     flex-grow: 1; 
   }
-  .image-container {
+ .image-container {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -233,43 +244,46 @@ scroll-behavior: smooth;
   }
 
 
-h1{
+/*h1{
   color:rgb(39, 197, 202);
   text-shadow: 2px 2px 2px rgb(255, 255, 255);
 	font-weight: bold;
   font-size:calc(1vw + 1em);
   font-size: var(--h1-font-shrinker);
+}
  
-}
 .text-container {
-  text-align:left;
-  padding-left:10%;
+  padding: 2%;
   color: aqua;
-  padding-top: 10%;
-}
-.right-item-container{
-    text-align:center;
-    color: rgb(12, 235, 235);
-    padding-right:0 10%;
+  display: flex;
+  justify-content: space-between;
+}*/
+
+.right-item-container {
+  text-align: right;
+  position: relative;
+  padding-right: 10%;
+  padding-top: 30%;
+ 
 }
 .Sign-in-botton{
 background-color: #2ACBD5;
 color:black;
-padding: 8px  var(--button-size);
+padding: 8px var(--button-size);
 border:solid 1px white;
 border-radius: 20px;
 cursor: pointer;
 text-decoration: none;
+display: inline-block;
+top: 80%;
+right: 15%;
+position: absolute;
 }
 .Sign-in-botton:hover{
   background-color:#838c00;
 }
 .text-container p{
-  color:aqua;
-  font-size: 18px;
-  text-align: center;
-  flex-wrap: wrap;
-  font-size: var(--p-font-shrink);
+ margin: 10px; 
 }
 
 nav {
