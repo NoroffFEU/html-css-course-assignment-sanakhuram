@@ -70,7 +70,7 @@ scroll-behavior: smooth;
     width: 100%;
    }
    .header-wrapper {
-    height: 500px;
+   
     align-items: center;
     background-color: aqua;
     justify-content: center;
@@ -196,8 +196,7 @@ scroll-behavior: smooth;
    }
   
   .main-wrapper {
-    background-color: black ;
-    flex-grow: 1; 
+    background-color: black ; 
   }
   li {
     position:inherit;
