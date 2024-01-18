@@ -262,7 +262,7 @@ scroll-behavior: smooth;
   padding-top: 30%;
  
 }
-.Sign-in-botton{
+.Sign-in-button{
 background-color: #2ACBD5;
 color:black;
 padding: 8px var(--button-size);
@@ -275,8 +275,8 @@ top: 80%;
 right: 15%;
 position: absolute;
 }
-.Sign-in-botton:hover{
-  background-color:#838c00;
+.Sign-in-button:hover{
+  background-color:#8c008c;
 }
 .text-container p{
  margin: 10px; 
@@ -400,7 +400,7 @@ h2{
   background-color: #2ACBD5;
   text-decoration: none;
   color:black;
-  padding: 5px var(--button-size);
+  padding: 8px var(--button-size);
   border:solid 1px white;
   border-radius: 20px;
   cursor: pointer;
@@ -408,6 +408,20 @@ h2{
 }
 .watch-now-button:hover {
   background-color: #8c0000;
+}
+.watch-button{
+  display: inline-block;
+  background-color: #2ACBD5;
+  text-decoration: none;
+  color:black;
+  padding: 8px var(--button-size);
+  border:solid 1px white;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.watch-button:hover {
+  background-color: #8c0079;
 }
 .movie-item p {
   text-align: center;
