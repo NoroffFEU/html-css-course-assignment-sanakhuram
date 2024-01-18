@@ -7,7 +7,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 /* Additional styling for responsiveness */
 
-@media only screen and (min-width: 300px) and (max-width:600px){
+@media only screen and (min-width: 280px) and (max-width:600px){
   .links {
     display: none;
   }
@@ -17,6 +17,7 @@
   .right-items li{
     display: none;
   }
+  
   .content-container{
     margin: 20px auto;
     padding:10px;
@@ -25,20 +26,19 @@
     width: 90%;
   }
 
-input,
+.input,
 button {
   font-size: 12px; 
 }
-
 
 }
 @media only screen and (min-width: 601px) and (max-width:900px){
   .links {
     display: none;
   }
- label,
-input,
-button {
+ .label,
+.input,
+.button {
   font-size: 16px; 
 }
 .social-buttons{
