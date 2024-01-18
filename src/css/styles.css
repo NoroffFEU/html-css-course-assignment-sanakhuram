@@ -239,7 +239,9 @@ scroll-behavior: smooth;
 .image-overlay p{
   text-align: center;
 }
-
+.image-container h1{
+display: flex;
+}
 li {
   position: inherit;
   list-style: none;
