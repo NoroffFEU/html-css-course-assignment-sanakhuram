@@ -247,10 +247,10 @@ nav .right-items li span {
     color: white;
     font-size: medium;
   }
-dl {
+.Price {
   font-size: large;
   font-weight: bold;
-  color: #f80909;
+  color: #e61212;
   position: absolute;
   margin-left: 70%;
 }
