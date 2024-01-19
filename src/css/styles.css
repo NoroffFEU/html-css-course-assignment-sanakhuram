@@ -220,7 +220,7 @@ scroll-behavior: smooth;
 .Sign-in-button {
     display: inline-block;
     padding: 8px 70px;
-    font-size: 16px;
+    font-size: 16px var(--button-size);
     text-align: center;
     text-decoration: none;
     background-color: #288a91; 
@@ -378,7 +378,7 @@ h3{
 .movie-item button{
   background-color: #2ACBD5;
   color:black;
-  padding: 8px 40px;
+  padding: 8px var(--button-size);
   border:solid 1px white;
   border-radius: 20px;
   cursor: pointer;

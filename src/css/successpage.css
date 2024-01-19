@@ -286,14 +286,14 @@ scroll-behavior: smooth;
   width: 80px;
   height: 80px;
   background: url(https://th.bing.com/th/id/R.14f7b7011055f57e0db2aa259fb98f85?rik=k%2fJ1iAKmzI4ztg&pid=ImgRaw&r=0) center/contain no-repeat;
-  margin-bottom: 30px;
-  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .image-overlay h1 {
     color: aqua; 
     margin: 10px 0; 
     align-self: center;
-    font-size: var(--font-shrinker);
+    font-size:var(--h1-font-shrinker);
 }
 p {
   color: white;
