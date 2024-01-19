@@ -157,6 +157,10 @@ body {
   .subscribe-button:hover {
     background-color: #778c00;
   }
+  .bottom-options img {
+    width: 40%;
+    margin-top: 10px;
+  }
 
    .header-content {
     display:flex;
