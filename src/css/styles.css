@@ -9,30 +9,11 @@
 @media only screen and (min-width: 301px) and (max-width:600px){
   .links {
     display: none;
-  }
+  } 
   .movie-item img{
     width: calc(50% - 20px);
 }  
 }
-/*@media only screen and (min-width: 601px) and (max-width:900px){
-  .links {
-    display: none;
-  }
-  .movie-item img{
-    width: calc(33.33% - 20px);
-}
-
-}
-@media only screen and (min-width: 901px) and (max-width:1300px){
-  .movie-item img {
-    width: calc(22% - 20px);
-}
-}
-@media only screen and (min-width: 1301px) {
-  .movie-item img {
-    width: calc(16% - 20px);
-}
-}*/
 body {
   color:rgb(127, 249, 255);
   background-color:black;
@@ -234,12 +215,6 @@ img{
 .Sign-in-button:hover {
     background-color: #842188; 
 }
-
-/*@media (max-width: 768px) {
-    .Sign-in-button {
-        padding: 8px 20px;
-        font-size: 14px;
-    }*/
 .image-overlay p{
   text-align: center;
   font-weight: 700;
@@ -277,6 +252,9 @@ position: relative;
 padding-right: 10%;
 padding-top: 30%;
 
+}
+nav .left-items li{
+  font-size:var(--fontsize);
 }
 nav {
   display: flex;
