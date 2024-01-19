@@ -12,8 +12,7 @@
   }
   .movie-item img{
     width: calc(50% - 20px);
-}
-   
+}  
 }
 @media only screen and (min-width: 601px) and (max-width:900px){
   .links {
@@ -306,15 +305,14 @@ nav .right-items li span {
   color:white
 }
 
-h2{
-  color:rgb(21, 124, 128);
-	text-align:center;
-	border-bottom: 1px solid rgb(106, 192, 212);
-	cursor: pointer;
-}
-h2 {
+h1{
   text-align: center;
-  color: aqua;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:x-large;
+  color:aqua;
+  border-bottom: 1px solid rgb(106, 192, 212);
+	cursor: pointer;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -342,7 +340,7 @@ h2 {
   background-color: rgb(19, 19, 18); 
 }
  
-h3{
+h2{
   text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size:x-large;
