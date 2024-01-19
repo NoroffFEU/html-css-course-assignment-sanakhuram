@@ -290,6 +290,7 @@ nav .right-items li span {
  }
  h2{
     text-align: center;
+    margin-top: 10px;
  }
  p{
     color: white;
@@ -297,7 +298,8 @@ nav .right-items li span {
     margin: 25px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: large;
+    font-size:30px var(--font-shrinker);
+    text-align: justify;
  }
  .descirption-container{
   border: 2px solid aqua;
@@ -317,6 +319,7 @@ nav .right-items li span {
    margin-top: 40px;
    margin-left: 30%;
   }
+
    .footer-wrapper {
     border-top:solid 1px aqua;
     background-color: rgb(8, 8, 8);
