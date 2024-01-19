@@ -232,6 +232,7 @@ nav .right-items li span {
   transform: translateY(-50%);
   width: 250px;
   height: auto;
+  padding-bottom: 40px;
 }
 .buttons-container {
     display: flex;
@@ -243,14 +244,30 @@ nav .right-items li span {
   .add-to-watchlist-button{
     background-color: #2ACBD5;
     color:black;
-    padding: 10px 60px;
+    padding: 8px 60px;
+    border:solid 1px white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .add-to-cart-button{
+    display: inline-block;
+    background-color: #2ACBD5;
+    text-decoration: none;
+    color:black;
+    padding:8px 70px;
     border:solid 1px white;
     border-radius: 20px;
     cursor: pointer;
     margin-bottom: 20px;
-    text-decoration: none;
-    font-weight: normal;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
   }
+
   .add-to-watchlist-button:hover{
     background-color: #838c00;
   }
@@ -259,22 +276,28 @@ nav .right-items li span {
   }
 
   h1.left-aligned {
-    text-align:left;
+    text-align:center;
     font-size: x-large;
     font-weight: bold;
+    padding-left: 20px;
   }
  h1.right-aligned{
   text-align: right;
   font-weight: bold;
   color: #f80a0a;
   font-size: large;
+  padding-right: 20px;
  }
  h2{
     text-align: center;
  }
  p{
     color: white;
-    text-align: center;
+    text-align: left;
+    margin: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
  }
  .descirption-container{
   border: 2px solid aqua;
@@ -286,13 +309,13 @@ nav .right-items li span {
 
   .Characterstics-container{
    width: 650px;
-   height: 120px;
+   height: 150px;
    align-items: center;
    border-radius: 40px;
    border: 2px solid #32D7CD;
    margin-bottom: 40px;
-   margin-top: 30px;
-   margin-left: 25%;
+   margin-top: 40px;
+   margin-left: 30%;
   }
    .footer-wrapper {
     border-top:solid 1px aqua;

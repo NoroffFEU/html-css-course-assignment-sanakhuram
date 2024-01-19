@@ -259,13 +259,27 @@ nav .right-items li span {
   position: absolute;
   margin-left: 70%;
 }
-.Check-out-button,
 .Card-Details-button{
     background-color: #0fd4e2;
     color:black;
     border-radius: 30px;
     padding: 7px 80px;
     border:solid 1px white;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top:0;
+    font-size: x-large;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .Shopping-Cart-button{
+    background-color:rgba(0, 255, 255, 0.863);
+    color:black;
+    border-radius: 0px;
+    padding: 7px 80px;
+    border:solid 2px rgb(114, 130, 133);
     cursor: pointer;
     margin-bottom: 30px;
     margin-top:0;
