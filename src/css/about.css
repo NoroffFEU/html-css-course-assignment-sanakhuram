@@ -323,20 +323,24 @@ z-index: 50;
     padding-right: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: justify;
   }
   h1{
     color: #03FFF0;
+    text-align: center;
   }
   h2{
     color: #03FFF0;
     font-size: 30px;
     border-top:1px solid #03FFF0;
     padding-top: 30px;
+    text-align: center;
   }
   :placeholder-shown{
     margin-bottom: 30px;
     width: 50%;
     height: auto;
+    margin-left: 20%;
   }
   h3{
     text-align: center;

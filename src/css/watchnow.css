@@ -310,14 +310,17 @@ nav .right-items li span {
  }
 
   .Characterstics-container{
-   width: 650px;
-   height: 150px;
+   width: 500px;
+   height: 140px;
    align-items: center;
    border-radius: 40px;
    border: 2px solid #32D7CD;
    margin-bottom: 40px;
    margin-top: 40px;
-   margin-left: 30%;
+   margin-left: 26%;
+  }
+  .Characterstics-container p{
+    text-align: center;
   }
 
    .footer-wrapper {

@@ -303,6 +303,7 @@ p {
   color: white;
   text-align: center;
   font-size: var(-p--font-shrinker);
+  text-align: justify;
   
 }
 h2 a{
