@@ -431,7 +431,9 @@ h3{
     margin-top: 20px;
     display: inline-block;
     align-items:center;
-    margin-right: 50px;
+    margin-right: 60px;  
+    display: list-item;
+    list-style-type:disc;
   }
   h4 {
   color:rgb(141, 141, 70);
