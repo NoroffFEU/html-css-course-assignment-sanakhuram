@@ -252,7 +252,7 @@ position: relative;
 padding-top: 20%;
 }
 nav .left-items li{
-  font-size:var(--fontsize);
+  font-size: 15px;
 }
 nav {
   display: flex;
