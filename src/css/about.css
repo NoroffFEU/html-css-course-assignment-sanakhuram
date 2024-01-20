@@ -11,9 +11,7 @@
   .links {
     display: none;
   }
-  .social-buttons{
-    display: none;
-  }
+  
   .right-items li{
     display: none;
   }
@@ -221,7 +219,7 @@ scroll-behavior: smooth;
   nav ul li {
     display: inline-block;
     margin-right: 5px;
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
   }
   nav {
