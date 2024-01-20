@@ -85,7 +85,7 @@ body {
     position: fixed;
     left: -200px;
     top: 80px;
-    height: 60%;
+    height: 70%;
     width: 200px;
     background-color: hsl(0, 0%, 2%);
     border:1px solid #0af3f3;
@@ -138,7 +138,7 @@ body {
   }
   .bottom-options {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     width: 100%;
     text-align: center;
   }
@@ -156,7 +156,7 @@ body {
     background-color: #778c00;
   }
   .bottom-options img {
-    width: 40%;
+    width: 80%;
     margin-top: 10px;
   }
    .header-content {
