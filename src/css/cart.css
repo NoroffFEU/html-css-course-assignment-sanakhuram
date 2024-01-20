@@ -232,7 +232,7 @@ nav .right-items li span {
     border: 1px solid aqua;
     padding: 10px;
     border-radius: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-left: 30px;
     margin-right: 30px;
   }
@@ -266,8 +266,8 @@ nav .right-items li span {
     padding: 7px 80px;
     border:solid 1px white;
     cursor: pointer;
-    margin-bottom: 30px;
-    margin-top:0;
+    margin-bottom: 50px;
+    margin-top: 40px;
     font-size: x-large;
     text-align: center;
     margin-left: auto;
@@ -281,8 +281,8 @@ nav .right-items li span {
     padding: 7px 80px;
     border:solid 2px rgb(114, 130, 133);
     cursor: pointer;
-    margin-bottom: 30px;
-    margin-top:0;
+    margin-bottom: 50px;
+    margin-top:50px;
     font-size: x-large;
     text-align: center;
     margin-left: auto;
@@ -296,8 +296,8 @@ nav .right-items li span {
     padding: 7px 80px;
     border:solid 1px white;
     cursor: pointer;
-    margin-bottom: 30px;
-    margin-top:0;
+    margin-bottom: 40px;
+    margin-top: 50px;
     font-size: x-large;
     text-align: center;
     align-items: center;
@@ -336,6 +336,7 @@ h2 {
   text-align: center;
   color: white;
   font-weight: bold;
+  margin-bottom:30px;
 }
 h3,h4 {
   align-items: center;
@@ -344,6 +345,7 @@ h3,h4 {
   text-align: center;
   font-weight: lighter;
   font-size: large;
+  margin-top: 20px;
 }
 .line-between {
   display:inline-block;
@@ -368,6 +370,7 @@ h5 {
   color: antiquewhite;
   font-size: smaller;
   font-weight: lighter;
+  margin-bottom: 20px;
 }
 
   .footer-wrapper {
