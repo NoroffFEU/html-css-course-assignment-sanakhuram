@@ -30,7 +30,12 @@ button {
 .main-wrapper {
   flex-direction: column;
 }
-
+span.gap-between {
+  display: none;
+}
+.quantity-Button {
+  display: none;
+}
 }
 @media only screen and (min-width: 601px) and (max-width:900px){
   .links {
@@ -236,15 +241,7 @@ nav .left-items li,
 nav .right-itemsli {
     margin-right:20px;
   }
-nav .right-items li img {
-    width:15px;
-    height:15px;
-    margin-left:5px;
-  }
-nav .right-items li span {
-    font-size: 12px;
-    color:white
-  }
+
   h1 a {
     font-size: 20px;
     padding-left:30px;
@@ -319,7 +316,7 @@ nav .right-items li span {
     background-color: #0fd4e2;
     color:black;
     border-radius: 10px;
-    padding: 7px 80px;
+    padding: 8px var(--button-size);
     border:solid 1px white;
     cursor: pointer;
     margin-bottom: 40px;

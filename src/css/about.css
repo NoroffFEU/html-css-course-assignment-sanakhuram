@@ -178,7 +178,7 @@ scroll-behavior: smooth;
     border-radius: 20px;
     cursor: pointer;
     font-size: medium;
-    transition: background-color 0.3s ease-in-out; /* Button background transition on hover */
+    transition: background-color 0.3s ease-in-out; 
   }
   .subscribe-button:hover {
     background-color: #778c00;
