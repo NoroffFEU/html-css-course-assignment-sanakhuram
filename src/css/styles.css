@@ -12,17 +12,7 @@
   } 
   
 }
-/*@media only screen and (max-width: 768){
-  .New-release{
-    flex-direction: column;
-    height: auto;
-    overflow-x: hidden;
-  }
-  .New-release img{
-    width: 100%;
-    max-width: none;
-  }
-}*/
+
 
 body {
   color:rgb(127, 249, 255);
