@@ -285,7 +285,7 @@ scroll-behavior: smooth;
 p {
   color: white;
   text-align: center;
-  font-size: 20px var(-p--font-shrink);
+  font-size: 20px var(--p-font-shrink);
   text-align: justify;
   margin-top: 20px;
   margin-bottom: 30px;
