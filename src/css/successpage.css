@@ -18,8 +18,9 @@
   .right-items li span{
     display: none;
   }
-  
-  
+   .main-wrapper {
+    flex-direction: column;
+}
 
 }
 @media only screen and (min-width: 601px) and (max-width:900px){
@@ -31,7 +32,7 @@
 }
 @media screen and (max-width: 301px) {
   .left-items {
-    display: none; /* Hide the left items on smaller screens */
+    display: none;
   }
 }
 
@@ -71,7 +72,6 @@ scroll-behavior: smooth;
     width: 100%;
    }
    .header-wrapper {
-    
     align-items: center;
     background-color: aqua;
     justify-content: center;
@@ -208,7 +208,7 @@ scroll-behavior: smooth;
     position:inherit;
     list-style: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 15px var(--font-shrinker);
     font-family:Arial, Helvetica, sans-serif;
     margin: 5px;
     text-align: center;
@@ -296,7 +296,7 @@ scroll-behavior: smooth;
 p {
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 20px var(--font-shrinker);
   text-align: justify;
   margin-top: 20px;
   margin-bottom: 30px;

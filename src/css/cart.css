@@ -6,10 +6,36 @@
 /* Feel free to add as many of these imports as you need */
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 /* Additional styling for responsiveness */
-@media only screen and (min-width: 360px) and (max-width:768px){
-  .main-wrapper {
-    flex-direction: column; 
+@media only screen and (min-width: 280px) and (max-width:600px){
+  .links {
+    display: none;
+  }
+  
+  .right-items li{
+    display: none;
+  }
+
+  .content-container{
+    margin: 20px auto;
+    padding:10px;
+  }
+  .image-overlay {
+    width: 90%;
+  }
+
+.input,
+button {
+  font-size: 12px; 
 }
+.main-wrapper {
+  flex-direction: column;
+}
+
+}
+@media only screen and (min-width: 601px) and (max-width:900px){
+  .links {
+    display: none;
+  }
 }
 
 body {
@@ -316,7 +342,7 @@ nav .right-items li span {
   background-color: #f5f9f9;
   color: black;
   border-radius: 30px;
-  padding: 7px 60px;
+  padding: 7px var(--button-size);
   border: solid 1px rgb(40, 204, 201);
   cursor: pointer;
   margin-bottom: 10px;
@@ -329,7 +355,7 @@ nav .right-items li span {
   text-align: center;
   padding: 4px 20px;
   border-radius: 10px;
-  margin-left: 80%;
+  margin-left: 70%;
   position:absolute;
 }
 h2 {
