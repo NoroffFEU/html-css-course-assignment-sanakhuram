@@ -201,9 +201,6 @@ scroll-behavior: smooth;
     height: 100%;
    }
   
-  .main-wrapper {
-    background-color: black ; 
-  }
   li {
     position:inherit;
     list-style: none;
@@ -292,6 +289,7 @@ scroll-behavior: smooth;
     align-self: center;
     margin-top: 10%;
     margin-bottom: 20px;
+    font-size: var(-h1--font-shrinker);
 }
 p {
   color: white;

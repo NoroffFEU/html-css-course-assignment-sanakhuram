@@ -177,9 +177,7 @@ body {
     justify-content: center;
     height: 100%;
    }
-   .main-wrapper {
-    background-color: black ; 
-  } 
+ 
   li {
     position:inherit;
     list-style: none;
@@ -310,7 +308,8 @@ nav .right-items li span {
     padding-left: 20px;
     padding-right: 20px;
     font-size:30px var(--font-shrinker);
-    text-align: justify;
+    text-align: left;
+    padding-bottom: 20px;
  }
  .descirption-container{
   border: 2px solid aqua;
