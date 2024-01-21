@@ -233,6 +233,7 @@ nav .right-items li span {
   }
 .image-container{
   position: relative;
+  padding-top: 20px;
 }
 .movie-icon {
   position: absolute;
