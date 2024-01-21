@@ -205,7 +205,7 @@ scroll-behavior: smooth;
     position:inherit;
     list-style: none;
     display: inline-block;
-    font-size: 15px var(--font-shrinker);
+    font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
     margin: 5px;
     text-align: center;
@@ -289,12 +289,11 @@ scroll-behavior: smooth;
     align-self: center;
     margin-top: 10%;
     margin-bottom: 20px;
-    font-size: var(-h1--font-shrinker);
 }
 p {
   color: white;
   text-align: center;
-  font-size: 20px var(--font-shrinker);
+  font-size: 20px var(-p--font-shrinker);
   text-align: justify;
   margin-top: 20px;
   margin-bottom: 30px;
