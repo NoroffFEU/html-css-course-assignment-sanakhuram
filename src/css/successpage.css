@@ -270,7 +270,7 @@ scroll-behavior: smooth;
   padding: 1rem;
   width: 100%;
   max-width: 600px;
-  height: 800px;
+  height: 650px;
   box-sizing: border-box;
   position: absolute;
   top: 50%;
@@ -313,7 +313,7 @@ h2 a{
 h2 {
   text-align: center;
   padding-bottom: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
  .footer-wrapper {
