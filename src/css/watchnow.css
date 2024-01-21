@@ -296,10 +296,12 @@ nav .right-items li span {
   color: #f80a0a;
   font-size: large;
   padding-right: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
  h2{
     text-align: center;
     margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
  p{
     color: white;
