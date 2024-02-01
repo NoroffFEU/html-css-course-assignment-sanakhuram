@@ -1,17 +1,16 @@
-/* Use import to split up your CSS into manageable chunks */
+/* Use import to split up your CSS into manageable chunks 
 @import url("./reset.css");
-/* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
+/* Files that are only needed to be imported are called partials 
+/* These are marked with an underscore: 
 @import url("./variables.css");
-/* Feel free to add as many of these imports as you need */
+/* Feel free to add as many of these imports as you need 
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 /* Additional styling for responsiveness */
+
+@import url("./global.css");
 @media only screen and (min-width: 280px) and (max-width:600px){
-  .links {
-    display: none;
-  }
-  
-  .right-items li{
+
+   .right-items li{
     display: none;
   }
 
@@ -37,17 +36,7 @@ span.gap-between {
   display: none;
 }
 }
-@media only screen and (min-width: 601px) and (max-width:900px){
-  .links {
-    display: none;
-  }
-}
 
-body {
-    color:rgb(127, 249, 255);
-    background-color:black;
-    font-family: 'Poppins', sans-serif; 
-  }
   html,
   body{
     height: 100vh;
@@ -55,7 +44,7 @@ body {
     padding: 0;
   
   }
-  .center-container {
+ /* .center-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,7 +173,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
     font-size: medium;
-    transition: background-color 0.3s ease-in-out; /* Button background transition on hover */
+    transition: background-color 0.3s ease-in-out; /* Button background transition on hover
   }
   .subscribe-button:hover {
     background-color: #778c00;
@@ -192,7 +181,7 @@ body {
   .bottom-options img {
     width: 50%;
     margin-top: 10px;
-  }
+  }*/
 
    .header-content {
     display:flex;
@@ -202,7 +191,7 @@ body {
     height: 100%;
    }
   
-  li {
+ /* li {
     position:inherit;
     list-style: none;
     display: inline-block;
@@ -240,7 +229,7 @@ nav .right-items {
 nav .left-items li,
 nav .right-itemsli {
     margin-right:20px;
-  }
+  }*/
 
   h1 a {
     font-size: 20px;
@@ -396,7 +385,7 @@ h5 {
   margin-bottom: 20px;
 }
 
-  .footer-wrapper {
+  /*.footer-wrapper {
     border-top:solid 1px aqua;
     background-color: rgb(8, 8, 8);
     color: white;
@@ -416,7 +405,7 @@ h5 {
     margin-right: 60px;  
     display: list-item;
     list-style-type:disc;
-  }
+  }*/
   h6 {
   color:rgb(141, 141, 70);
   font-family:'Poppins', sans-serif;

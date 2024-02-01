@@ -1,16 +1,14 @@
-/* Use import to split up your CSS into manageable chunks */
+/* Use import to split up your CSS into manageable chunks 
 @import url("./reset.css");
-/* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
+/* Files that are only needed to be imported are called partials 
+/* These are marked with an underscore: 
 @import url("./variables.css");
-/* Feel free to add as many of these imports as you need */
+/* Feel free to add as many of these imports as you need 
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 /* Additional styling for responsiveness */
+@import url("./global.css");
 
 @media only screen and (min-width: 280px) and (max-width:600px){
-  .links {
-    display: none;
-  }
   
   .right-items li{
     display: none;
@@ -30,18 +28,12 @@ button {
 }
 
 }
-@media only screen and (min-width: 601px) and (max-width:900px){
-  .links {
-    display: none;
-  }
-}
 
-body {
+/*body {
   color:rgb(127, 249, 255);
   background-color:black;
   font-family: 'Poppins', sans-serif; 
   width: 100%;
-  
   margin: 0;
 }
 html{
@@ -186,13 +178,13 @@ scroll-behavior: smooth;
   .bottom-options img {
     width: 80%;
     padding-left: 50px;
-  }
+  }*/
    
    .header-content {
     display:flex;
     align-items: center;
     justify-content: center;
-    /*flex-direction: column;*/
+    flex-direction: column;
     height: 100%;
    }
    .main-wrapper {
@@ -200,7 +192,7 @@ scroll-behavior: smooth;
     flex-grow: 1;
    
 } 
-  li {
+ /* li {
     position:inherit;
     list-style: none;
     display: inline-block;
@@ -250,7 +242,7 @@ scroll-behavior: smooth;
   nav .right-items li span {
     font-size: 12px;
     color:white
-  }
+  }*/
   
   .image-container1 ,
   .image-container2 {
@@ -424,7 +416,7 @@ button {
   margin-bottom: 10px;
 }
 
- .footer-wrapper {
+ /*.footer-wrapper {
     border-top:solid 1px aqua;
     background-color: rgb(8, 8, 8);
     color: white;
@@ -444,7 +436,7 @@ button {
     margin-right: 60px;  
     display: list-item;
     list-style-type:disc;
-  }
+  }*/
 h5 {
   color:rgb(141, 141, 70);
   font-family:'Poppins', sans-serif;

@@ -1,20 +1,21 @@
-/* Use import to split up your CSS into manageable chunks */
+@import url("./global.css");
+
+/* Use import to split up your CSS into manageable chunks 
 @import url("./reset.css");
 /* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
+/* These are marked with an underscore: 
 @import url("./variables.css");
-/* Feel free to add as many of these imports as you need */
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
-/* Additional styling for responsiveness */
+/* Additional styling for responsiveness 
 @media only screen and (min-width: 301px) and (max-width:600px){
   .links {
     display: none;
   } 
   
-}
+}*/
 
 
-body {
+/*body {
   color:rgb(127, 249, 255);
   background-color:black;
   font-family: 'Poppins', sans-serif; 
@@ -160,7 +161,7 @@ img{
   border-radius: 20px;
   cursor: pointer;
   font-size: medium;
-  transition: background-color 0.3s ease-in-out; /* Button background transition on hover */
+  transition: background-color 0.3s ease-in-out; /* Button background transition on hover
 }
 .subscribe-button:hover {
   background-color: #778c00;
@@ -168,7 +169,7 @@ img{
 .bottom-options img {
   width: 40%;
   margin-top: 10px;
-}
+}*/
 
   .header-content {
   display:flex;
@@ -176,6 +177,7 @@ img{
   justify-content: center;
   height: 100%;
  }
+
   .main-wrapper {
     background-color: black ;
     flex-grow: 1; 
@@ -416,7 +418,7 @@ h3{
   }
 }
 
- .footer-wrapper {
+ /*.footer-wrapper {
     border-top:solid 1px aqua;
     background-color: rgb(8, 8, 8);
     color: white;
@@ -436,7 +438,7 @@ h3{
     margin-right: 60px;  
     display: list-item;
     list-style-type:disc;
-  }
+  }*/
   h4 {
   color:rgb(141, 141, 70);
   font-family:'Poppins', sans-serif;

@@ -1,11 +1,5 @@
-/* Use import to split up your CSS into manageable chunks */
-@import url("./reset.css");
-/* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
-@import url("./variables.css");
-/* Feel free to add as many of these imports as you need */
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
-/* Additional styling for responsiveness */
+
+@import url("./global.css");
 @media only screen and (min-width: 360px) and (max-width:768px){
   .main-wrapper {
     flex-direction: column;
@@ -22,7 +16,7 @@
   display: none;
 }
 }
-body {
+/*body {
     color:rgb(127, 249, 255);
     background-color:black;
     font-family: 'Poppins', sans-serif; 
@@ -152,7 +146,7 @@ body {
     bottom: 10px;
     width: 100%;
     text-align: center;
-  }
+  }*/
   .subscribe-button {
     background-color: #2ACBD5;
     color: black;
@@ -334,7 +328,7 @@ nav .right-items li span {
     text-align: center;
   }
 
-   .footer-wrapper {
+  /* .footer-wrapper {
     border-top:solid 1px aqua;
     background-color: rgb(8, 8, 8);
     color: white;
@@ -355,7 +349,7 @@ nav .right-items li span {
     display: list-item;
     list-style-type:disc;
   }
- 
+ */
   h4 {
   color:rgb(141, 141, 70);
   font-family:'Poppins', sans-serif;
