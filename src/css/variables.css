@@ -4,7 +4,7 @@
 :root {
   --color-primary: #00f7ff;
   --color-secondary: #050505;
-  --button-size: clamp(0.5rem, 1vw + 1.5rem, 5rem); 
+  --button-size: clamp(0.5rem, 1vw + 1.5rem, 4rem); 
 
   --h1-font-shrinker: clamp(0.8rem, 1vw + 0.8rem, 4rem);
 
